@@ -1,0 +1,51 @@
+/* Apply styles to the .main container */
+.main {
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px 5px 7px 5px #ef050588;
+    max-width: 600px; /* Optional: Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style the heading inside .main */
+.main h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+}
+
+/* Style input fields */
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc(100% - 40px); /* Adjust width for padding */
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid #764776;
+}
+
+/* Style submit button */
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #6915ef;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 0; /* Adjust margin */
+    border-radius: 10px;
+}
+
+/* Optional: Center submit button */
+input[type=submit] {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Optional: Center input fields */
+input {
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Center text inside inputs */
+}
